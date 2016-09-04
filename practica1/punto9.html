@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="UTF-8">
+	 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Alta Producto</title>
+	
+	
+	    <link href="style/punto9.css" rel="stylesheet">
+	</head>
+
+  <body> 
+    
+   
+      
+      
+    <div class="caja">
+	            <h1>Alta Producto </h1>
+	      <p> <strong> Aclaracion: Los campos con (*) son obligatorios </strong> </p>
+		<div class="">
+                            <label>Nombre del producto: *</label>
+                       <div class="">
+                              <input type="text" id="nombre" name="nombre" required placeholder="Nombre" pattern="[a-zA-Z]+" data-error="Complete correctamente este campo">
+                                 
+                       </div>
+         </div>
+		 <div class="">
+                            <label>Marca: *</label>
+                       <div class="">
+                              <input type="text" id="marca" name="marca" required placeholder="Marca" pattern="[a-zA-Z]+" data-error="Complete correctamente este campo">
+                                 
+                       </div>
+         </div>
+		 <div class="">
+                            <label>Codigo de barra: *</label>
+                       <div class="">
+                              <input type="text" id="codigo" name="codigo" required placeholder="codigo" pattern="[a-zA-Z0-9]+" data-error="Complete correctamente este campo">
+                                 
+                       </div>
+         </div>
+		 <div class="">
+                            <label>Cantidad de stock: *</label>
+                       <div class="">
+                              <input type="number" id="cantidad" name="cantidad" required placeholder="Cantidad"  data-error="Complete correctamente este campo">
+                                 
+                       </div>
+         </div>
+		 <div class="">
+                            <label>Cantidad de stock minima: *</label>
+                       <div class="">
+                              <input type="number" id="cantidadMin" name="cantidadMin" required placeholder="CantidadMin" data-error="Complete correctamente este campo">
+                                 
+                       </div>
+         </div>
+		 <div class="">
+                            <div>
+                            <label class="">Categoria: * </label> 
+							  </div>
+                             
+							 <select name="categoria">
+                              <option value="1"> cat1</option>
+                             <option value="2"> cat2</option>
+							 	</select> 
+                        
+           </div>
+		   <div class="">
+                            <label>Proveedor: *</label>
+                       <div class="">
+                              <input type="text" id="proveedor" name="proveedor" required placeholder="Proveedor" pattern="[a-zA-Z]+" data-error="Complete correctamente este campo">
+                                 
+                       </div>
+         </div>
+		
+		 <div class="">
+                            <label>Precio Unitario: *</label>
+                       <div class="">
+                              <input type="number" id="precio" name="precio" step="any" required placeholder="Precio unitario"  data-error="Complete correctamente este campo">
+                                 
+                       </div>
+         </div>
+		 <input type="date" value="2016-12-23" readonly="readonly">
+		
+		
+		 <div class="">
+							   <input type="submit" class="" id="botonAceptar"  data-role="button" value="ACEPTAR">
+                              <button type="button" class="" id="botonCancelar" data-role="button" onClick="">CANCELAR</button>
+                              
+                            </div>
+                        
+		
+    </div>
+        
+        
+
+    
+    
+  </body>
+</html>

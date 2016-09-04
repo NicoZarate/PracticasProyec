@@ -1,0 +1,22 @@
+
+table{
+     width:50%;
+	 font-family:arial;
+     }
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+	font_family:arial;
+}
+th, td {
+    padding: 15px;
+	
+}
+ing{
+  width:0px;
+  height:0px;
+  }
+  #tipo{
+      font-weight: normal;
+	
+  }
