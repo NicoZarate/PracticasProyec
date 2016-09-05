@@ -1,0 +1,27 @@
+  
+            
+			body{
+				background:#FFFFFF;
+			}
+			input[type=text],input[type=number],input[type=datetime]{
+		           margin: 5px 0 15px 0;
+                   padding: 0.9em;
+		        }
+				div.caja.cajaLogin{
+		     width: 55%;
+		        }
+				h1,label,p { 
+		     
+		             font-size: 13px;
+			          }
+			    h1{
+			         font-size: 18px;
+			        }
+					#botonCancelar{
+			     font-size:10px;
+			  }
+			  #botonAceptar{
+			      font-size:10px;
+				  
+			  }
+		

@@ -1,0 +1,39 @@
+	body{
+		   background:#aaaaaa;
+		   font-family:arial ;
+		}
+	input[type=text],input[type=number],input[type=datetime]{
+		           margin: 5px 0 10px 0;
+                   padding: 0.7em;
+		   }
+		       select{
+			       width:100%;
+				   margin: 8px 0 8px 0;
+			   }
+				h1,label,p { 
+				      
+		              margin-left:0%;
+		             font-size: 11px;
+			          }
+			    h1{
+			         font-size: 16px;
+			        }
+			 input[type=submit],button[type=button]{
+		         padding: 1em;
+			     width: 100%;
+			     margin: 5px 0 5px 0;
+				 font-size:12px;
+			  
+			  }
+			  div.caja.cajaLogin{
+		     width: 60%;
+		        }
+					#botonCancelar{
+			      margin-left:0%;		
+			      font-size:10px;
+			  }
+			      #botonAceptar{
+				  margin-left:0%;
+			      font-size:10px;
+				  
+			  }
