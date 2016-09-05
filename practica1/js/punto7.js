@@ -3,22 +3,29 @@ $(document).ready(main);
 var contador = 1;
  
 function main(){
-	$('.menu_bar').click(function(){
+   $('body').click(function(){
+       $('#menu').hide();
+   });
+   $('#menu').click(function(e){
+       e.stopPropagation();
+   })
+	$('.menu_bar').click(function(e){
 		// $('nav').toggle(); 
- 
-		if(contador == 1){
-			$('nav').animate({
+ e.stopPropagation();
+ $('#menu').toggle();
+/*		if(contador == 1){
+			$('#menu').animate({
 				left: '0'
 			});
 			contador = 0;
 		} else {
 			contador = 1;
-			$('nav').animate({
+			$('#menu').animate({
 				left: '-100%'
 			});
 		}
- 
+ */
 	});
+  
     
- 
 };
