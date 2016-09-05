@@ -1,0 +1,23 @@
+H1,H2 {
+    color :blue;
+    font-size: 16; 
+    text-align:center;
+}
+.objetivo {
+    color:grey ; 
+    text-align: center; 
+    font-style: oblique
+}
+.ejercicio {
+    font-weight: bold
+}
+p {
+    color :gray; 
+    text-align: justify
+}
+#destacado{
+    font-weight: bold; 
+    color:black;
+    border-style: dashed;
+    line-height: 2.4em;
+}
