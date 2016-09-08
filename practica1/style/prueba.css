@@ -1,16 +1,56 @@
-ul {
+html{
+    height: 100%;
+}
+
+body{
+    margin:0px;
+    height: 100%;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+
+footer{
+	padding:1em;
+	color: white;
+	background-color: #009688;
+	clear:left;
+	text-align: center;
+        height: 10%;
+        margin-bottom: 0;
+}
+header{
+    width:100%;
+    height: 30%;    
+    margin:0px;
+    background-color: #009688;
+}
+header h1{
+    margin:0;
+    height: 60%; 
+    text-align: center;
+    width: 100%;
+    margin-left: 20px;
+
+}
+header nav{
+    font-size: medium;
+    height: 40%;
+    width:100%;
+    margin:0;
+}
+header nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    height: 100%;
 }
 
-li {
+header nav ul li {
     float: left;
 }
 
-li a {
+header nav ul li a {
     display: block;
     color: white;
     text-align: center;
@@ -18,23 +58,29 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+header nav ul li a:hover {
     background-color: #111;
+}
+.content{
+    height: 60%;
+    padding:auto;
+    width: 100%;
+    margin-left: 20px;
 }
 
 @media screen and (max-width:900px ) {
-ul {
+header nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 200px;
+    width: 100%;
     background-color: #f1f1f1;
 }
-li {
+header nav li {
     width: 100%;
 
 }
-li a {
+header nav li a {
     display: block;
     color: #000;
     padding: 8px 16px;
@@ -42,12 +88,12 @@ li a {
     text-align: left;
 }
 
-li a.active {
+header nav li a.active {
     background-color: #4CAF50;
     color: white;
 }
 
-li a:hover:not(.active) {
+header nav li a:hover:not(.active) {
     background-color: #555;
     color: white;
 }
