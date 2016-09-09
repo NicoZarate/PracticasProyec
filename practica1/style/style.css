@@ -18,7 +18,7 @@
 		     width: 40%;
 		 }
 		
-		 input[type=text],input[type=number],input[type=date]{
+		 input[type=text],input[type=number],input[type=date], input[type=password]{
 		   margin: 5px 0 20px 0;
 		   width: 100%;
 		   padding: 1em;
