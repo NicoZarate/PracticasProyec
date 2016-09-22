@@ -1,0 +1,61 @@
+.content-right{
+    width:60%;
+    height:100%;
+    float:right;
+    padding:20px;
+}
+.content-left{
+    width:40%;
+    height:100%;
+    float:left;
+    padding-top: 10px;
+    letter-spacing: 1px;
+    padding-left: 10px;
+    
+}
+.menu-table{
+    width:100%;
+    border-spacing: 5px;
+}
+.menu-table tr td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.menu-table th td{
+    padding: 10px;
+    text-align: left;
+}
+
+.inicio{
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: linear-gradient(to bottom, rgb(242, 228, 228) 0%,rgba(243, 235, 235, 0.01) 100%), url("../img/inicio.JPG");
+}
+
+
+@media only screen and ( max-width: 880px) {
+    .content-left{
+        width: 50%;
+        padding: 10px;
+    }
+    .content-right{
+        width: 50%;
+    }
+
+    .inicio{
+        background-image: linear-gradient(to bottom, rgb(242, 228, 228) 0%,rgba(243, 235, 235, 0.36) 100%), url("../img/inicio.JPG");
+    }
+}
+@media only screen and ( max-width: 600px) {
+    .content-left{
+        width: 100%;
+        float: none;
+        padding: 10px;
+    }
+    .content-right{
+        width: 100%;
+        float: none;
+    }
+}

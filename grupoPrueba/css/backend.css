@@ -1,0 +1,137 @@
+body {
+	background-color: black;
+}
+
+.cuerpo {
+	text-align: center;
+	margin: 8%;
+	width: 84%;
+	margin-bottom: 0%;
+	margin-top: 0%;
+	background-color: #eeeeee;
+}
+
+.div-titulo {
+	padding-top: 10px;
+	padding-left: 30px;
+	text-align: left;
+}
+
+.titulo {
+	font-family: helvetica;
+	font-weight: 900;
+}
+
+.div-subtitulo {
+	width: 60%;
+	float: left;
+}
+
+.subtitulo {
+	text-align: left;
+	font-family: helvetica;
+	color: #888888;
+	font-weight: 300;
+	padding-left: 30px;
+}
+
+.div-login {
+	width: 40%;
+	float: right;
+	text-align: center;
+}
+
+.login {
+	font-family: helvetica;
+	font-weight: 300;
+	float: right;
+	padding-right: 20px;
+}
+
+.login a {
+	color: #046246;
+	text-decoration: none;
+}
+
+.div-menu {
+	width: 100%;
+	font-family: helvetica;
+	clear: both;
+}
+
+.menu > li {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 170px;
+}
+
+.menu li a {
+	margin: 0px;
+	padding: 0px;
+	background-color: #046246;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 10px 12px;
+	display: block;
+}
+
+.menu li a:hover {
+	color: black;
+	background-color: #baccba;
+}
+
+.menu li ul {
+	margin: 0px;
+	padding: 0px;
+	display: none;
+	position: absolute;
+	min-width: 170px;
+}
+
+.menu li:hover > ul {
+	display: block;
+}
+
+.menu li ul li {
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+}
+
+.menu li ul li ul {
+	margin: 0px;
+	padding: 0px;
+	right: -170px;
+	top: 0px;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.texto {
+	min-height: 300px;
+	margin-top: 150px;
+	clear: both;
+	font-family: helvetica;
+	font-weight: 300;
+}
+
+.pie {
+	color: white;
+	background-color: #046246;
+}
+
+@media only screen and (max-width: 640px) {
+	.menu li ul li ul {
+		margin: 0px;
+		padding: 0px;
+		right: -79px;
+		top: 0px;
+		min-width: 79px !important;
+		text-align: left;
+	}
+}

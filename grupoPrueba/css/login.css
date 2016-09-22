@@ -1,0 +1,109 @@
+
+body.imagenLogin{
+	background-image: url("../img/mila.Jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+
+	}
+
+
+     
+input[type=submit].bottonAltaProd,button[type=button].bottonAltaProd,input[type=submit].inputLogin{
+		      
+			  font-size: 16px;
+			 background: #DBEBB7;
+			  border: 6px;
+			  color:black;
+			  
+			  border-radius: 2px 2px 2px 2px;
+			   }
+			 div.caja{
+		    background-color: #E4ECD1;
+			width: 65%;
+			height:auto;
+			box-shadow:0px 0px 10px #555555;
+			margin: 5% auto; 
+	        padding: 1em;
+			border-radius: 10px 0px 10px 0px;
+		 }
+		 div.caja.cajaLogin{
+		     width: 40%;
+
+		 }
+		
+		 input[type=text].classText, input[type=password].classPass,input[type=number].classNumber,input[type=date].classDate, select.classSelect{
+		   margin: 5px 0 20px 0px;
+		   width: 100%;
+		   padding: 10px;
+		   border: 0px;
+		   border-radius: 10px 0px 10px 0px;
+		   }
+		     select{ 
+			     padding:0.17em;
+			     margin:5px 0 20px 0;
+				 border: 0px;
+				 border-radius: 10px 0px 10px 0px;
+			      }
+		   input[type=submit].bottonAltaProd,button[type=button].bottonAltaProd,input[type=submit].inputLogin{
+		      padding:1em;
+			  width: 35%;
+			  box-shadow:0px 0px 2px #555555;
+			  background: #DEEBDF;
+			  border: 0px;
+			  color:black;
+			  font-family: arial black;
+			  border-radius: 10px 0px 10px 0px;
+			  text-transform: uppercase;
+			  }
+			  input[type=submit].inputLogin{
+			      width:100%;
+			      
+			  }
+			  input[type=submit].bottonAltaProd,button[type=button].bottonAltaProd{
+			      margin-left: 10%;
+				  
+			  }
+			 
+			  input[type=submit].inputLogin:hover,input[type=submit].bottonAltaProd:hover,button[type=button].bottonAltaProd:hover{
+			  	 background: #7FFFD4;
+			     
+			  }
+			  
+	       
+
+@media only screen and (max-width: 880px) {
+
+	input[type=text].classText.login,input[type=password].classPass{
+		           margin: 5px 0 15px 0;
+		           
+                   padding: 0.9em;
+		        }
+				div.caja.cajaLogin{
+		     width: 55%;
+		        }
+				
+			   
+			  input[type=submit].bottonAltaProd,button[type=button].bottonAltaProd{
+			      font-size:10px;
+				  
+			  }
+			  input[type=submit].inputLogin{
+
+               font-size:12px;
+
+			  }
+	
+				}
+@media only screen and (max-width: 600px){
+
+
+   	input[type=submit].bottonAltaProd,button[type=button].bottonAltaProd{
+			      font-size:6px;
+				  
+			  }
+  
+
+
+}
+
